@@ -4,7 +4,7 @@ data "azurerm_resource_group" "COMMON-RG" {
 
 
 resource "azurerm_storage_account" "backend_storage" {
-  name                     = "devopb35tfstate"
+  name                     = "devopb35storageaccount"
   resource_group_name      = data.azurerm_resource_group.COMMON-RG.name
   location                 = data.azurerm_resource_group.COMMON-RG.location
   account_tier             = "Standard"
@@ -16,7 +16,7 @@ resource "azurerm_storage_account" "backend_storage" {
 }
 
 resource "azurerm_storage_container" "devopb35tfstate-container" {
-  name                  = "devopb35tfstate"
+  name                  = "devopb35tfstatenew"
   storage_account_name  = azurerm_storage_account.backend_storage.name
   container_access_type = "private"
 }

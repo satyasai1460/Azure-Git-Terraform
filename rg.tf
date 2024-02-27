@@ -1,8 +1,8 @@
 resource "azurerm_resource_group" "devops-rg" {
-  name     = "rg"
-  location = "eastus"
+  name     = var.rg_name
+  location = var.location
 
   tags = {
-    environment = "Development"
+    environment = var.env
   }
 }
