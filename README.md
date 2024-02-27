@@ -9,7 +9,7 @@ $ENV:ARM_TENANT_ID       = "xxxxxxxxxxxxxx"</br>
 
 # Environmental variables for Linux
 
-export ARM_SUBSCRIPTION_ID="xxxxxxxxxxxxxxxxxx"
-export ARM_CLIENT_ID="xxxxxxxxxxxxxxxxxxxxxxxx"
-export ARM_CLIENT_SECRET="xxxxxxxxxxxxxxxxxxxx"
-export ARM_TENANT_ID="xxxxxxxxxxxxxxxxxxxxxxxx"
+export ARM_SUBSCRIPTION_ID="xxxxxxxxxxxxxxxxxx"</br>
+export ARM_CLIENT_ID="xxxxxxxxxxxxxxxxxxxxxxxx"</br>
+export ARM_CLIENT_SECRET="xxxxxxxxxxxxxxxxxxxx"</br>
+export ARM_TENANT_ID="xxxxxxxxxxxxxxxxxxxxxxxx"</br>
