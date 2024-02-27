@@ -28,6 +28,6 @@ variable "VNet_dns" {
   #   default = ["8.8.8.8", "8.8.4.4"]
 }
 
-variable "superstar" {
+variable "megastar" {
   type = string
 }
