@@ -1,4 +1,4 @@
-xresource "azurerm_network_security_rule" "nsgrule80" {
+resource "azurerm_network_security_rule" "nsgrule80" {
   name                        = "nsgrule80"
   priority                    = 100
   direction                   = "Inbound"
