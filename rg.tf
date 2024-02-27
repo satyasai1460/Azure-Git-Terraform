@@ -4,5 +4,6 @@ resource "azurerm_resource_group" "devops-rg" {
 
   tags = {
     environment = var.env
+    megastar = var.megastar
   }
 }
